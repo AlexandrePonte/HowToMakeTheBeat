@@ -1,0 +1,41 @@
+.menu{
+margin:0;
+padding:0;
+width:300px;
+list-style:none;
+}
+
+.menu li{
+padding:0;
+margin:0 0 1px 0;
+height:40px;
+display:block;
+position:relative;
+vertical-align:middle;
+
+}
+
+.menu li a{
+text-align:center;
+width:170px;
+height:74px;
+padding:0px 25px;
+font:12px Verdana, Arial, Helvetica, sans-serif;
+color:#FFFFFF;
+display:block;
+background:url('../img/bouton_off.jpg') no-repeat;
+text-decoration:none;
+}
+
+
+.menu li a:hover{
+background:url('../img/bouton_on.jpg') no-repeat; 
+}
+
+.menu li a span{
+line-height:40px;
+}
+
+ a { outline: none; }
+ 
+
